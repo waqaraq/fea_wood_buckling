@@ -25,18 +25,7 @@ def build_beam_buckle_model(length, radius, ch, cv, E, nu,
                             model_name='Model-1',
                             job_name='EVB_Job1'):
     """
-    Builds the same model as your script, but takes:
-    length, radius, ch, cv, E, nu as function inputs.
-
-    BC options (integers):
-      left_bc:
-        1 = Left_free   (no BC at left)
-        2 = Left_pinned (left has U2 = 0)
-      right_bc:
-        3 = Right_free   (no BC at right)
-        4 = Right_pinned (right has U1 = U2 = 0)
-    """
-
+    
     # ============================================================
     # INPUTS (from function)
     # ============================================================
